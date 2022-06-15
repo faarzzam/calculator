@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+  display: flex;
+  align-items:center;  
+  background:linear-gradient(90deg, rgb(0, 0, 0) 50% ,rgb(112, 1, 181));
+}
+.display{
+ padding: 5px;   
+}
+.input{
+    width: 250px;
+    outline: none;
+    height: 70px;
+    font-size: 30px;
+    display: grid;
+    justify-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(176, 154, 154);
+    
+
+}
+::placeholder{
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.card{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:0.2fr 0.8fr ;
+    border-style: solid;
+    box-sizing: border-box;
+    width: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(20, 2, 36);
+    box-shadow: 3px 3px 15px 1px rgb(255, 255, 255);
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.card:hover{
+    box-shadow: 3px 3px 30px 3px rgb(255, 255, 255); 
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    justify-items: center;
+    align-content: center;
+    background-color: rgb(20, 2, 36);
+    gap: 6px;
+    padding: 10px;
+
+}
+.each-button{
+    display: flex;
+    border-style:none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgb(146, 10, 187); 
+}
+.each-button:hover{
+    box-shadow: 0px 0px 2px rgb(146, 10, 187);
+}
+.star1{
+    width: 2px;
+    height: 2px;
+    background-color: transparent;
+}
